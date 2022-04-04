@@ -1,6 +1,11 @@
+import React from "react";
 import {FC} from "react";
 
-const MoTable: FC = () => {
+interface IMoTableProps{
+ isLoading?: boolean;
+}
+
+const MoTable: FC<IMoTableProps> = () => {
  return <div className="ss">ss1</div>
 }
 
